@@ -17,7 +17,7 @@ const ItemListContainer = ({greeting}) =>{
             : collection(db, 'products')
 
         getDocs(collectionRef)
-            then(response => {
+            .then(response => {
                 const productAdapted = response.docs.map(doc => {
                     const data = doc.data()
                     return { id: doc.id, ...data }

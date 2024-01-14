@@ -1,4 +1,5 @@
-import { SlBasket } from "react-icons/sl"
+//import { SlBasket } from "react-icons/sl"
+import cart from "../components/assets/icons8-cart-50.png"
 import { useContext } from "react";
 import { CartContext } from "../context/CartContext";
 import { Link } from "react-router-dom";

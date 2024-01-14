@@ -33,7 +33,7 @@ const CheckoutForm = ({ onConfirm }) => {
                     className="input"
                     type="text"
                     value={phone}
-                    onChange={({ target }) => setName(target.value)}
+                    onChange={({ target }) => setPhone(target.value)}
                     />
                 </label>
                 <label className="label">
@@ -42,10 +42,12 @@ const CheckoutForm = ({ onConfirm }) => {
                     className="input"
                     type="email"
                     value={email}
-                    onChange={({ target }) => setName(target.value)}
+                    onChange={({ target }) => setEmail(target.value)}
                     />
                 </label>
             </form>
         </div>
     ) 
 }
+
+export default CheckoutForm;

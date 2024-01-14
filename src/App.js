@@ -8,6 +8,7 @@ import Error from "./components/Error";
 import "./App.css"
 import Cart from './components/Cart'
 import { CartProvider } from "./context/CartContext";
+import Checkout from "./components/Checkout";
 
 function App(){
     return(
